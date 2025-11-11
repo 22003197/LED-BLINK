@@ -44,42 +44,42 @@ The **LPC2148**, developed by NXP Semiconductors (Philips), is a 16/32-bit ARM7-
    <img width="1920" height="1021" alt="I-1" src="https://github.com/user-attachments/assets/c43a1287-8f7a-4048-8c81-24a1a55795fc" />
 
 2. Click **File → New STM32 Project**.
-   <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/a5799efb-57e1-42b8-ba46-b09f32d86fcb" />
-<img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/edf33429-8eea-4857-a991-c2d7706fc787" />
+   <img width="1920" height="1110" alt="I-2" src="https://github.com/user-attachments/assets/e52db5cf-cc7d-41fc-952a-7388f0f18684" />
+
 
 3. Select the **target microcontroller** or board and click **Next**.
-   <img width="1110" height="624" alt="image" src="https://github.com/user-attachments/assets/f93d88b6-cd7f-49db-84de-351f9b116488" />
+   <img width="1920" height="1122" alt="I-3" src="https://github.com/user-attachments/assets/e547d901-0b95-462a-903b-2862c1640144" />
 
 
 
 4. Name the project.
-   <img width="533" height="588" alt="image" src="https://github.com/user-attachments/assets/63de2bab-69d4-4cb9-8db6-1b57adff9878" />
+   <img width="590" height="634" alt="I-4" src="https://github.com/user-attachments/assets/afe07c01-6d7d-4e69-a9c9-6e789b29511d" />
+
 
 5. The corresponding `.ioc` file will be generated automatically.
-  <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/8900847c-6745-43e2-9ecf-2e66877fdc49" />
+  ![I-5](https://github.com/user-attachments/assets/242e3b1b-4bca-4834-868b-24f2e51f4ae9)
 
 6. Configure the pins as **GPIO (Input/Output)**, **USART**, etc. as needed.
-   <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/acc4f1c4-5e33-431b-8a76-3b102016baa6" />
-<img width="1110" height="624" alt="image" src="https://github.com/user-attachments/assets/b7abcd80-797d-451f-a7c3-23f303822423" />
+<img width="1920" height="1136" alt="I-6" src="https://github.com/user-attachments/assets/0adc98ce-a574-46ff-bd47-71e6ecd4f540" />
 
 7. Save the configuration (`Ctrl + S`) – the base C program will be generated automatically.
-   <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/dbf4b205-5db9-4e9b-8150-94f441c8b116" />
+   <img width="1920" height="1142" alt="I-7" src="https://github.com/user-attachments/assets/0d29f650-3b96-4581-963d-83bf05993868" />
+
  
 8. Edit the generated main program as required.
-   <img width="1110" height="624" alt="image" src="https://github.com/user-attachments/assets/05b39060-35d6-420d-9f4d-8721439bd82f" />
-<img width="1104" height="621" alt="image" src="https://github.com/user-attachments/assets/2ec55709-a45f-4e6e-8738-6aa94138eab1" />
+   <img width="1920" height="1142" alt="I-8" src="https://github.com/user-attachments/assets/9fe9f5fb-487d-4316-bb43-991e694f0935" />
 
 9. Click **Project → Build All**.
-    <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/264cd0a8-3e96-4668-822e-838ecfafc527" />
+    ![I-9](https://github.com/user-attachments/assets/063ff855-1226-4f33-aaa0-6e26a29d0568)
 
 10. Link the **HEX file** using the post-build process.
-    <img width="1053" height="465" alt="image" src="https://github.com/user-attachments/assets/478187a0-0ee6-4c50-9cac-c3b5ee18521b" />
+    <img width="1003" height="518" alt="I-10" src="https://github.com/user-attachments/assets/25b5fbaa-a42a-4f53-bdf9-4cb1b27a78e7" />
+
 
 11. Click **Debug** and connect the **STM Nucleo Board**.
-    <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/f72fff44-6073-4ae4-aa78-0da455df9af1" />
+    <img width="870" height="764" alt="I-11" src="https://github.com/user-attachments/assets/bce1ae3a-33d1-4054-a2a0-75ecb02d0c53" />
 
 13. Click **Run** to execute the program.
-    
 ---
 
 ### 💻 **Program**
@@ -109,8 +109,11 @@ int main(void)
 ---
 ### OUTPUT
 CASE 1: LED ON 
+<img width="1280" height="576" alt="I-12" src="https://github.com/user-attachments/assets/1ace0210-387c-4fb9-ad74-2adeaa324aad" />
+
 
 CASE 2: LED OFF
+<img width="1280" height="576" alt="I-13" src="https://github.com/user-attachments/assets/a3a369c4-412f-4868-b6c9-a946371b2eeb" />
 
 ---
 ### RESULT
